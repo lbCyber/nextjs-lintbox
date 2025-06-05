@@ -1,4 +1,3 @@
-import "../Styles/main.scss";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Codepen from "../components/modules/Codepen";

@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 
 export default function Codepen() {
 
-  const [randPen, setRandPen] = useState([]);
+  const [randPen, setRandPen] = useState<string[]>([]);
 
-  const peeks:any[] = [
+  const peeks:string[][] = [
     [
       "Hallownest Respite",
       "An elaborate and layered animation I made, with over 100 unique frames but compact at 250kb",
